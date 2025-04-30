@@ -16,7 +16,7 @@ export const Sidebar = ({ routeConfig }: Props) => {
               key={path}
               to={`${path}`}
               className={({ isActive }) =>
-                `${isActive ? "text-yellow-400" : "text-white"} hover:text-yellow-400`
+                `${isActive ? "text-blue-400" : "text-white"} hover:text-blue-400`
               }
             >
               {label}

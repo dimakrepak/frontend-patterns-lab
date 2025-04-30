@@ -1,14 +1,14 @@
 import { NotFoundPage } from "@/pages/NotFoundPage";
-import { DebounceThrottle } from "@/patterns/debounce-throttle/DebounceThrottle";
-import { FormManagement } from "@/patterns/form-management/FormManagement";
-import { StateManagement } from "@/patterns/state-management/StateManagement";
+import { DebounceThrottlePage } from "@/pages/patterns/DebounceThrottlePage";
+import { FormManagement } from "@/pages/patterns/FormManagement";
+import { StateManagement } from "@/pages/patterns/StateManagement";
 
 export const routesConfig = [
   {
     index: true,
     label: "Debounce/Throttle",
     path: "debounce-throttle",
-    Component: DebounceThrottle,
+    Component: DebounceThrottlePage,
   },
   {
     label: "Form Management",
