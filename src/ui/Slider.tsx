@@ -56,7 +56,6 @@ export const Slider = ({
           {value} {unit}
         </span>
       </div>
-
       <div
         ref={trackRef}
         className="relative w-full h-2 bg-gray-200 rounded-full"
